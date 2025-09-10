@@ -34,15 +34,15 @@ go run . --rtp=0.5
 В папке test можно запустить генерацию графика, где показана симуляция на 10000 попытках, в конечном счёте винрейт стримится к заданному значению.
 
 При RTP == 0.15
-![0.15](.\test\convergence_0.150000.png)
+![0.15](https://github.com/Sayanli/generator/blob/main/test/convergence_0.150000.png)
 
 При RTP == 0.5
-![0.5](.\test\convergence_0.500000.png)
+![0.5](https://github.com/Sayanli/generator/blob/main/test/convergence_0.500000.png)
 
 При RTP == 0.9
-![0.9](.\test\convergence_0.900000.png)
+![0.9](https://github.com/Sayanli/generator/blob/main/test/convergence_0.900000.png)
 
 при граничных случаях (0 или 1) идеальной ситуации не получается, видимо экспонента не даёт такого сделать
 
 При RTP == 1.0
-![1.0](.\test\convergence_1.000000.png)
+![1.0](https://github.com/Sayanli/generator/blob/main/test/convergence_1.000000.png)
